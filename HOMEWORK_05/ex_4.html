@@ -1,41 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/2548c1c9a3.js" crossorigin="anonymous"></script>
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
     <div class="container-fluid">
-        <form>
-        <div class="d-flex flex-column justify-content-center" id="login-box" style="background-color: rgb(238,238,238);">
-            <div class="login-box-header" style="background-color: rgb(238,238,238);">
-                <h4 style="color:rgb(139,139,139);margin-bottom:0px;font-weight:400;font-size:27px;text-align: center;">Login Form</h4>
+        <div class="row">
+            <div class="col-xl-4"></div>
+            <div class="col-xl-4 h-100" style="background-color: rgb(241, 238, 235);">
+                <form class="d-xl-flex flex-xl-column justify-content-xl-center" style="margin: 30px;">
+                    <h3 class="text-center">Login Form</h3>
+                    <div class="form-group">
+                        <label for="">Email address</label>
+                        <input type="email" name="" id="" class="form-control" placeholder="email"
+                            aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" name="" id="" class="form-control" placeholder="password"
+                            aria-describedby="helpId">
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block">Login with email</button>
+                    <button type="button" class="btn btn-secondary btn-block"><i class="fa fa-facebook" aria-hidden="true"></i> Login with Facebook</button>
+                    <button type="button" class="btn btn-secondary btn-block"><i class="fa fa-twitter" aria-hidden="true"></i> Login with Twitter</button>
+                    <button type="button" class="btn btn-secondary btn-block"><i class="fa fa-github" aria-hidden="true"></i> Login with Github</button>
+                    <button type="button" class="btn btn-secondary btn-block"><i class="fa fa-google" aria-hidden="true"></i> Login with Google</button>
+
+                </form>
             </div>
-            <div class="email-login"><span style="font-weight:bold;">Email address</span><input class="form-control email-imput form-control" type="email" style="margin-top:10px;" required="" placeholder="Email" minlength="6"><span style="font-weight:bold;">Password</span>
-                <input
-                    class="form-control password-input form-control" type="password" style="margin-top:10px;" required="" placeholder="Password" minlength="6"></div>
-            <div class="submit-row" style="margin-bottom:8px;padding-top:0px;"><button class="btn btn-primary btn-block box-shadow" id="submit-id-submit" type="submit" style="background-color: rgb(74,98,224);">Login with Email</button></div>
-            <div class="login-box-content" style="background-color: rgb(238,238,238);">
-                <div class="fb-login box-shadow" style="background-color: rgb(192,189,189);"><a class="d-flex flex-row align-items-center social-login-link" href="#"><i class="fa fa-facebook" style="margin-left: 0px;padding-right: 20px;padding-left: 22px;width: 56px;"></i>Login with Facebook</a></div>
-                <div class="gp-login box-shadow"
-                    style="background-color: rgb(192,189,189);"><a class="d-flex flex-row align-items-center social-login-link" style="margin-bottom: 10px;" href="#"><i class="fa fa-twitter" style="color:rgb(255,255,255);width:56px;"></i>Login with Twitter</a></div>
-                <div class="gp-login box-shadow"
-                    style="background-color: rgb(192,189,189);"><a class="d-flex flex-row align-items-center social-login-link" style="margin-bottom: 10px;" href="#"><i class="fa fa-github" style="color:rgb(255,255,255);width:56px;"></i>Login with Github</a></div>
-                <div class="gp-login box-shadow" style="background-color: rgb(192,189,189);"><a class="d-flex flex-row align-items-center social-login-link" style="margin-bottom: 10px;" href="#"><i class="fa fa-google" style="color:rgb(255,255,255);width:56px;"></i>Login with Google</a></div>
-            </div>
+            <div class="col-xl-4"></div>
         </div>
-    </form>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
